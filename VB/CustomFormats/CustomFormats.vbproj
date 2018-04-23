@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F91AC167-E9BA-4F26-8DE6-4340D90595D5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>CustomFormats</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.2\DevExpress.Data.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.2\DevExpress.Utils.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxEditors.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.2\DevExpress.Web.ASPxEditors.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.2\DevExpress.Web.ASPxScheduler.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v8.2, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.2\DevExpress.Web.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v8.2.Core, Version=8.2.2.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.2\DevExpress.XtraScheduler.v8.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyForms\MyAppointmentForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\CustomEvents.vb" />
+    <Compile Include="Code\Helpers.vb" />
+    <Compile Include="Code\MyForm.vb" />
+    <Compile Include="Code\Services.vb" />
+    <Compile Include="MyForms\MyAppointmentForm.ascx.vb">
+      <DependentUpon>MyAppointmentForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyForms\MyAppointmentForm.ascx.designer.vb">
+      <DependentUpon>MyAppointmentForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\AppointmentForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\GotoDateForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\GotoDateForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\InplaceEditor.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\InplaceEditor.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentDeleteForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentDeleteForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentEditForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentEditForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\HorizontalAppointmentTemplate.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalAppointmentTemplate.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\HorizontalSameDayAppointmentTemplate.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalSameDayAppointmentTemplate.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\VerticalAppointmentTemplate.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\VerticalAppointmentTemplate.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSchedulerForms\ReminderForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentForm.ascx.designer.vb">
+      <DependentUpon>AppointmentForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\GotoDateForm.ascx.designer.vb">
+      <DependentUpon>GotoDateForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalAppointmentTemplate.ascx.designer.vb">
+      <DependentUpon>HorizontalAppointmentTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalSameDayAppointmentTemplate.ascx.designer.vb">
+      <DependentUpon>HorizontalSameDayAppointmentTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\InplaceEditor.ascx.designer.vb">
+      <DependentUpon>InplaceEditor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentDeleteForm.ascx.designer.vb">
+      <DependentUpon>RecurrentAppointmentDeleteForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentEditForm.ascx.designer.vb">
+      <DependentUpon>RecurrentAppointmentEditForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\ReminderForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\ReminderForm.ascx.designer.vb">
+      <DependentUpon>ReminderForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSchedulerForms\VerticalAppointmentTemplate.ascx.designer.vb">
+      <DependentUpon>VerticalAppointmentTemplate.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1926</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl></IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
