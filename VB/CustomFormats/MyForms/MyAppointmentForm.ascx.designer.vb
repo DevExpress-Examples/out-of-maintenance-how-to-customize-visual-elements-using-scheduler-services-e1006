@@ -7,198 +7,196 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-Option Strict On
-Option Explicit On
 
 
 Partial Public Class Templates_MyAppointmentForm
-    
-    '''<summary>
-    '''lblSubject control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblSubject As Global.DevExpress.Web.ASPxLabel
-    
-    '''<summary>
-    '''tbSubject control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents tbSubject As Global.DevExpress.Web.ASPxTextBox
-    
-    '''<summary>
-    '''lblLocation control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblLocation As Global.DevExpress.Web.ASPxLabel
-    
-    '''<summary>
-    '''tbLocation control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents tbLocation As Global.DevExpress.Web.ASPxTextBox
-    
-    '''<summary>
-    '''lblLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblLabel As Global.DevExpress.Web.ASPxLabel
-    
-    '''<summary>
-    '''tbPrice control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents tbPrice As Global.DevExpress.Web.ASPxTextBox
-    
-    '''<summary>
-    '''lblStartTime control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblStartTime As Global.DevExpress.Web.ASPxLabel
-    
-    '''<summary>
-    '''edtStartDate control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents edtStartDate As Global.DevExpress.Web.ASPxDateEdit
-    
-    '''<summary>
-    '''lblEndTime control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblEndTime As Global.DevExpress.Web.ASPxLabel
-    
-    '''<summary>
-    '''edtEndDate control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents edtEndDate As Global.DevExpress.Web.ASPxDateEdit
-    
-    '''<summary>
-    '''lblResource control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblResource As Global.DevExpress.Web.ASPxLabel
-    
-    '''<summary>
-    '''edtResource control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents edtResource As Global.DevExpress.Web.ASPxComboBox
-    
-    '''<summary>
-    '''lblDescription control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblDescription As Global.DevExpress.Web.ASPxLabel
-    
-    '''<summary>
-    '''memDescription control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents memDescription As Global.DevExpress.Web.ASPxMemo
-    
-    '''<summary>
-    '''lblContactInfo control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblContactInfo As Global.DevExpress.Web.ASPxLabel
-    
-    '''<summary>
-    '''memContacts control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents memContacts As Global.DevExpress.Web.ASPxMemo
-    
-    '''<summary>
-    '''AppointmentRecurrenceForm1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents AppointmentRecurrenceForm1 As Global.DevExpress.Web.ASPxScheduler.Controls.AppointmentRecurrenceForm
-    
-    '''<summary>
-    '''btnOk control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnOk As Global.DevExpress.Web.ASPxButton
-    
-    '''<summary>
-    '''btnCancel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnCancel As Global.DevExpress.Web.ASPxButton
-    
-    '''<summary>
-    '''btnDelete control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnDelete As Global.DevExpress.Web.ASPxButton
-    
-    '''<summary>
-    '''schedulerStatusInfo control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents schedulerStatusInfo As Global.DevExpress.Web.ASPxScheduler.Controls.ASPxSchedulerStatusInfo
+
+    ''' <summary>
+    ''' lblSubject control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected lblSubject As Global.DevExpress.Web.ASPxLabel
+
+    ''' <summary>
+    ''' tbSubject control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected tbSubject As Global.DevExpress.Web.ASPxTextBox
+
+    ''' <summary>
+    ''' lblLocation control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected lblLocation As Global.DevExpress.Web.ASPxLabel
+
+    ''' <summary>
+    ''' tbLocation control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected tbLocation As Global.DevExpress.Web.ASPxTextBox
+
+    ''' <summary>
+    ''' lblLabel control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected lblLabel As Global.DevExpress.Web.ASPxLabel
+
+    ''' <summary>
+    ''' tbPrice control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected tbPrice As Global.DevExpress.Web.ASPxTextBox
+
+    ''' <summary>
+    ''' lblStartTime control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected lblStartTime As Global.DevExpress.Web.ASPxLabel
+
+    ''' <summary>
+    ''' edtStartDate control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected edtStartDate As Global.DevExpress.Web.ASPxDateEdit
+
+    ''' <summary>
+    ''' lblEndTime control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected lblEndTime As Global.DevExpress.Web.ASPxLabel
+
+    ''' <summary>
+    ''' edtEndDate control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected edtEndDate As Global.DevExpress.Web.ASPxDateEdit
+
+    ''' <summary>
+    ''' lblResource control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected lblResource As Global.DevExpress.Web.ASPxLabel
+
+    ''' <summary>
+    ''' edtResource control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected edtResource As Global.DevExpress.Web.ASPxComboBox
+
+    ''' <summary>
+    ''' lblDescription control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected lblDescription As Global.DevExpress.Web.ASPxLabel
+
+    ''' <summary>
+    ''' memDescription control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected memDescription As Global.DevExpress.Web.ASPxMemo
+
+    ''' <summary>
+    ''' lblContactInfo control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected lblContactInfo As Global.DevExpress.Web.ASPxLabel
+
+    ''' <summary>
+    ''' memContacts control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected memContacts As Global.DevExpress.Web.ASPxMemo
+
+    ''' <summary>
+    ''' AppointmentRecurrenceForm1 control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected AppointmentRecurrenceForm1 As Global.DevExpress.Web.ASPxScheduler.Controls.AppointmentRecurrenceForm
+
+    ''' <summary>
+    ''' btnOk control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected btnOk As Global.DevExpress.Web.ASPxButton
+
+    ''' <summary>
+    ''' btnCancel control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected btnCancel As Global.DevExpress.Web.ASPxButton
+
+    ''' <summary>
+    ''' btnDelete control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected btnDelete As Global.DevExpress.Web.ASPxButton
+
+    ''' <summary>
+    ''' schedulerStatusInfo control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected schedulerStatusInfo As Global.DevExpress.Web.ASPxScheduler.Controls.ASPxSchedulerStatusInfo
 End Class
