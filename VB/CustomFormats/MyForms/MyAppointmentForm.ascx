@@ -117,16 +117,16 @@
                     <td>
                         <dxe:ASPxButton runat="server" ID="btnOk" Text="OK" UseSubmitBehavior="false" AutoPostBack="False"
                             EnableViewState="False" Width="91px"  
-                            OnClientClick='<%#CType(Container, MyAppointmentFormTemplateContainer).SaveHandler%>'>
+                            ClientSideEvents-Click='<%#CType(Container, MyAppointmentFormTemplateContainer).SaveHandler%>'>
                         </dxe:ASPxButton>
                     </td>
                     <td>
                         <dxe:ASPxButton runat="server" ID="btnCancel" Text="Cancel" UseSubmitBehavior="false"
-                            AutoPostBack="false" EnableViewState="false" Width="91px" OnClientClick='<%#CType(Container, MyAppointmentFormTemplateContainer).CancelHandler%>' />
+                            AutoPostBack="false" EnableViewState="false" Width="91px" ClientSideEvents-Click='<%#CType(Container, MyAppointmentFormTemplateContainer).CancelHandler%>' />
                     </td>
                     <td>
                         <dxe:ASPxButton runat="server" ID="btnDelete" Text="Delete" UseSubmitBehavior="false"
-                            AutoPostBack="false" EnableViewState="false" Width="91px" OnClientClick='<%#CType(Container, MyAppointmentFormTemplateContainer).DeleteHandler%>'
+                            AutoPostBack="false" EnableViewState="false" Width="91px" ClientSideEvents-Click='<%#CType(Container, MyAppointmentFormTemplateContainer).DeleteHandler%>'
                             Enabled='<%#CType(Container, DevExpress.Web.ASPxScheduler.AppointmentFormTemplateContainer).CanDeleteAppointment%>' />
                     </td>
                 </tr>
