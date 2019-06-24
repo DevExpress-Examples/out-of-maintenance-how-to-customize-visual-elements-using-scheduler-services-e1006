@@ -1,12 +1,12 @@
 <%@ Control Language="vb" AutoEventWireup="true"
 	Inherits="Templates_MyAppointmentForm" Codebehind="MyAppointmentForm.ascx.vb" %>
-<%@ Register Assembly="DevExpress.Web.ASPxEditors.v8.3, Version=8.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
 	Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
-<%@ Register Assembly="DevExpress.Web.ASPxEditors.v8.3" Namespace="DevExpress.Web.ASPxEditors"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors"
 	TagPrefix="dxe" %>
-<%@ Register Assembly="DevExpress.Web.ASPxScheduler.v8.3" Namespace="DevExpress.Web.ASPxScheduler.Controls"
+<%@ Register Assembly="DevExpress.Web.ASPxScheduler.v13.1" Namespace="DevExpress.Web.ASPxScheduler.Controls"
 	TagPrefix="dxsc" %>
-<%@ Register Assembly="DevExpress.Web.ASPxScheduler.v8.3" Namespace="DevExpress.Web.ASPxScheduler"
+<%@ Register Assembly="DevExpress.Web.ASPxScheduler.v13.1" Namespace="DevExpress.Web.ASPxScheduler"
 	TagPrefix="dxwschs" %>
 <dxe:ASPxLabel ID="ASPxLabel1" runat="server" Text='<%#(CType(Container, MyAppointmentFormTemplateContainer)).IsNewAppointment%>' ClientInstanceName="isAptNew" Height="1px" Width="1px" ClientVisible="False" EnableClientSideAPI="True">
 </dxe:ASPxLabel>
