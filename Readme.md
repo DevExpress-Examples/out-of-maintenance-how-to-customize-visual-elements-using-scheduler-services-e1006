@@ -1,6 +1,6 @@
 # How to customize visual elements using Scheduler services
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1006)**
+**[[Run Online]](https://codecentral.devexpress.com/e1006/)**
 <!-- run online end -->
 
 
